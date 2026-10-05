@@ -1,0 +1,12 @@
+--library heaps
+--library hlsdl
+
+-C src
+
+-m Main
+
+-D windowTitle=Iris
+-D windowSize=1280x720
+# -D windowFixed
+
+-hl ../out/hl/game.hl
