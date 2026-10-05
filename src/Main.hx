@@ -6,6 +6,7 @@ import hxd.*;
 import hxd.Key.*;
 import Controls.*;
 
+// TODO: State system
 class Main extends App
 {
 	static function main() new Main();
