@@ -2,8 +2,10 @@
   "dependencies": [
     {
       "name": "heaps",
-      "type": "haxelib",
-      "version": null
+      "type": "git",
+      "dir": null,
+      "ref": "master",
+      "url": "https://github.com/HeapsIO/heaps"
     },
     {
       "name": "hlsdl",
