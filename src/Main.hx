@@ -1,8 +1,13 @@
+import hxd.Res;
+
 class Main
 {
 	static function main()
 	{
-		new Game();
+        Res.initLocal();
+        Res.initEmbed();
+
+        Game.instance;
 		Game.switchState(new states.World());
 	}
 }
