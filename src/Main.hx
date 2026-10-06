@@ -4,10 +4,9 @@ class Main
 {
 	static function main()
 	{
-        Res.initLocal();
         Res.initEmbed();
-
-        Game.instance;
+        
+		Game.instance;
 		Game.switchState(new states.World());
 	}
 }

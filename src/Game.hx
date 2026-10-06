@@ -1,11 +1,6 @@
 package;
 
-import states.World;
-import hxd.res.DefaultFont.get as defaultFont;
-import h2d.*;
 import hxd.*;
-import hxd.Key.*;
-import Controls.*;
 
 class Game extends App
 {
